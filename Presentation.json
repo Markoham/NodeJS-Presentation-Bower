@@ -1,0 +1,62 @@
+{
+  "slides": [
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 361,
+          "y": 32,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#fcd802\"><b><font face=\"'Ubuntu', sans-serif\">Bower</font></b></font>",
+          "size": 144,
+          "selected": false,
+          "rotate": 0.01
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": true,
+      "active": true
+    }
+  ],
+  "background": "img:http://pixabay.com/get/5df7675f06f8e06f7131/1410292567/droplets-195838_1920.jpg?direct",
+  "activeSlide": {
+    "components": [
+      {
+        "TextBox": {},
+        "x": 361,
+        "y": 32,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<font color=\"#fcd802\"><b><font face=\"'Ubuntu', sans-serif\">Bower</font></b></font>",
+        "size": 144,
+        "selected": false,
+        "rotate": 0.01
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 0,
+    "selected": true,
+    "active": true
+  },
+  "fileName": "presentation-1",
+  "deckVersion": "1.0",
+  "customBackgrounds": {
+    "bgs": []
+  }
+}
