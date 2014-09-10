@@ -3,18 +3,45 @@
     {
       "components": [
         {
+          "src": "http://bower.io/img/bower-logo.png",
+          "type": "Image",
+          "x": 16,
+          "y": 8,
+          "scale": {
+            "x": 0.58203125,
+            "y": 0.58203125,
+            "width": 596,
+            "height": 523.828125
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
           "TextBox": {},
-          "x": 361,
-          "y": 32,
+          "x": 326,
+          "y": 492,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "<font color=\"#fcd802\"><b><font face=\"'Ubuntu', sans-serif\">Bower</font></b></font>",
           "size": 144,
+          "text": "<font color=\"#ff0000\">Bower</font>",
           "selected": false,
-          "rotate": 0.01
+          "customClasses": ""
+        },
+        {
+          "TextBox": {},
+          "x": 328,
+          "y": 679,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font>A package manager for the web</font>",
+          "selected": false
         }
       ],
       "z": 0,
@@ -23,26 +50,304 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 0,
+      "selected": false,
+      "active": false,
+      "surface": "bg-custom-fac930",
+      "x": 180,
+      "y": 180,
+      "background": "bg-transparent"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 400,
+          "y": 30,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "WAT",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 132,
+          "y": 228,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "Taking care of:<br>- hunting<br>- finding<br>- downloading<br>- saving the stuff you’re looking for",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 1,
+      "selected": false,
+      "active": false,
+      "x": 460,
+      "y": 180,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 310,
+          "y": 30,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "Install Bower",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 141,
+          "y": 216,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font>$ npm install -g bower</font>",
+          "selected": false,
+          "customClasses": "command"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "x": 740,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 270,
+          "y": 30,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "Getting started",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 91,
+          "y": 188,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font>$ bower install &lt;package&gt;</font>",
+          "selected": false,
+          "customClasses": "command"
+        },
+        {
+          "TextBox": {},
+          "x": 86,
+          "y": 340.5043408574863,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font color=\"#878787\"># registered package</font><br>$ bower install jquery<br><font color=\"#878787\"># GitHub shorthand</font><br>$ bower install desandro/masonry<br><font color=\"#878787\"># Git endpoint</font><br>$ bower install git://github.com/user/package.git<br><font color=\"#878787\"># URL</font><br>$ bower install http://example.com/script.js",
+          "selected": false,
+          "customClasses": "command"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "x": 1020,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 320,
+          "y": 30,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "bower.json",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 100,
+          "y": 202,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "$ bower init",
+          "selected": false,
+          "customClasses": "command"
+        },
+        {
+          "TextBox": {},
+          "x": 526,
+          "y": 194,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "{<br>&nbsp; \"name\": \"my-project\",<br>&nbsp; \"version\": \"1.0.0\",<br>&nbsp; \"main\": \"path/to/main.css\",<br>&nbsp; \"ignore\": [<br>&nbsp;&nbsp;&nbsp; \".jshintrc\",<br>&nbsp;&nbsp;&nbsp; \"**/*.txt\"<br>&nbsp; ],<br>&nbsp; \"dependencies\": {<br>&nbsp;&nbsp;&nbsp; \"&lt;name&gt;\": \"&lt;version&gt;\",<br>&nbsp;&nbsp;&nbsp; \"&lt;name&gt;\": \"&lt;folder&gt;\",<br>&nbsp;&nbsp;&nbsp; \"&lt;name&gt;\": \"&lt;package&gt;\"<br>&nbsp; },<br>&nbsp; \"devDependencies\": {<br>&nbsp;&nbsp;&nbsp; \"&lt;test-framework-name&gt;\": \"&lt;version&gt;\"<br>&nbsp; }<br>}",
+          "selected": false,
+          "customClasses": "code"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "x": 1300,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 100,
+          "y": 30,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "Maintaining dependencies",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 102,
+          "y": 226,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font><font color=\"#878787\"># install package and add it to bower.json dependencies</font><br>$ bower install &lt;package&gt; --save</font>",
+          "selected": false,
+          "customClasses": "command"
+        },
+        {
+          "TextBox": {},
+          "x": 99,
+          "y": 393,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font color=\"#878787\"># install package and add it to bower.json devDependencies</font><br>$ bower install &lt;package&gt; --save-dev",
+          "selected": false,
+          "customClasses": "command"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 5,
       "selected": true,
-      "active": true
+      "active": true,
+      "x": 1580,
+      "y": 180
     }
   ],
-  "background": "img:http://pixabay.com/get/5df7675f06f8e06f7131/1410292567/droplets-195838_1920.jpg?direct",
+  "background": "bg-transparent",
   "activeSlide": {
     "components": [
       {
         "TextBox": {},
-        "x": 361,
-        "y": 32,
+        "x": 100,
+        "y": 30,
         "scale": {
           "x": 1,
           "y": 1
         },
         "type": "TextBox",
-        "text": "<font color=\"#fcd802\"><b><font face=\"'Ubuntu', sans-serif\">Bower</font></b></font>",
-        "size": 144,
+        "size": 72,
+        "text": "Maintaining dependencies",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 102,
+        "y": 226,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 24,
+        "text": "<font><font color=\"#878787\"># install package and add it to bower.json dependencies</font><br>$ bower install &lt;package&gt; --save</font>",
         "selected": false,
-        "rotate": 0.01
+        "customClasses": "command"
+      },
+      {
+        "TextBox": {},
+        "x": 99,
+        "y": 393,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 24,
+        "text": "<font color=\"#878787\"># install package and add it to bower.json devDependencies</font><br>$ bower install &lt;package&gt; --save-dev",
+        "selected": false,
+        "customClasses": "command"
       }
     ],
     "z": 0,
@@ -50,13 +355,32 @@
     "rotateX": 0,
     "rotateY": 0,
     "rotateZ": 0,
-    "index": 0,
+    "index": 5,
     "selected": true,
-    "active": true
+    "active": true,
+    "x": 1580,
+    "y": 180
   },
   "fileName": "presentation-1",
+  "surface": "bg-custom-fac930",
+  "customStylesheet": "/*.example {\n\tborder: 4px groove orange;\n}*/\n\n.strut-surface .code {\n\tbackground-color: #543729;\n\tpadding: 1em;\n  \tborder-radius: 2px;\n  \tcolor: #fff;\n}\n\n.strut-surface .command {\n\tbackground-color: #543729;\n\tpadding: 0.2em;\n  \tborder-radius: 2px;\n  \tcolor: #fff;\n}",
   "deckVersion": "1.0",
   "customBackgrounds": {
-    "bgs": []
-  }
+    "bgs": [
+      {
+        "klass": "bg-custom-EEE",
+        "style": "#EEE"
+      },
+      {
+        "klass": "bg-custom-776220",
+        "style": "#776220"
+      },
+      {
+        "klass": "bg-custom-fac930",
+        "style": "#fac930"
+      }
+    ]
+  },
+  "overviewX": 880,
+  "overviewY": 180
 }
