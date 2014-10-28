@@ -1,71 +1,415 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Nodejs-presentation-bower by Markoham</title>
+<html style="height: 100%;"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Deck Title</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Nodejs-presentation-bower</h1>
-        <p></p>
+<meta name="description" content="TODO">
+<meta name="author" content="TODO">
 
-        <p class="view"><a href="https://github.com/Markoham/NodeJS-Presentation-Bower">View the Project on GitHub <small>Markoham/NodeJS-Presentation-Bower</small></a></p>
+<style>
+.componentContainer {
+    position: absolute;
+    line-height: normal;
+    /*-webkit-transform-origin: 135% 135%;
+    -moz-transform-origin: 135% 135%;
+    transform-origin: 135% 135%;*/
+}
+
+.transformContainer {
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<link rel="stylesheet" href="Deck%20Title_tiedostot/default-reset.css">
+<link href="Deck%20Title_tiedostot/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="Deck%20Title_tiedostot/default.css" id="theme">
+<link href="Deck%20Title_tiedostot/web-fonts.css" rel="stylesheet" type="text/css">
+<link href="Deck%20Title_tiedostot/backgroundClasses.css" rel="stylesheet" type="text/css">
+<link href="Deck%20Title_tiedostot/surfaceClasses.css" rel="stylesheet" type="text/css">
+
+<link rel="shortcut icon" href="http://strut.io/editor/preview_export/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="http://strut.io/editor/preview_export/apple-touch-icon.png" type="image/png">
+
+<style>
+.reveal.themedArea {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<script src="Deck%20Title_tiedostot/analytics.js" async=""></script><script type="text/javascript" src="Deck%20Title_tiedostot/dataset-shim.js"></script>
+<script type="text/javascript" src="Deck%20Title_tiedostot/impress.js"></script>
+
+<script src="Deck%20Title_tiedostot/onready.js"></script>
+<script src="Deck%20Title_tiedostot/loadPresentation.js"></script>
+<script>
+ready(function() {
+    if (document.getElementById('launched-placeholder'))
+        loadPresentation();
+
+    if (!window.presStarted) {
+        startPres(document, window);
+        impress().init();   
+    }
+
+    if ("ontouchstart" in document.documentElement) { 
+        document.querySelector(".hint").innerHTML = 
+            "<p>Tap on the left or right to navigate</p>";
+    }
+});
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-42322531-1', 'strut.io');
+    ga('send', 'pageview');
+    </script>
+</head>
+<body style="height: 100%; overflow: hidden;" class="impress-supported impress-enabled">
+<style type="text/css">
+/*.example {
+	border: 4px groove orange;
+}*/
+
+.strut-surface .code {
+	background-color: #543729;
+	padding: 1em;
+  	border-radius: 2px;
+  	color: #fff;
+}
+
+.strut-surface .command {
+	background-color: #543729;
+	padding: 0.2em;
+  	border-radius: 2px;
+  	color: #fff;
+}
+</style>
+<style>
+
+	
+	.bg-custom-fac930 {
+		background: #fac930;
+	}
 
 
-        <ul>
-          <li><a href="https://github.com/Markoham/NodeJS-Presentation-Bower/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/Markoham/NodeJS-Presentation-Bower/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/Markoham/NodeJS-Presentation-Bower">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+</style>
+<style>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+	
+		
+		
+	
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+	
+		
+		
+	
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+	
+		
+		
+	
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+	
+		
+		
+	
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+	
+		
+		
+	
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+	
+		
+		
+	
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+</style>
+<!-- This is a work around / hack to get the user's browser to download the fonts 
+ if they decide to save the presentation. -->
+<div style="visibility: hidden; width: 0px; height: 0px">
+<img src="Deck%20Title_tiedostot/Lato-Bold.woff">
+<img src="Deck%20Title_tiedostot/HammersmithOne.woff">
+<img src="Deck%20Title_tiedostot/Droid-Sans-Mono.woff">
+<img src="Deck%20Title_tiedostot/Gorditas-Regular.woff">
+<img src="Deck%20Title_tiedostot/FredokaOne-Regular.woff">
+<img src="Deck%20Title_tiedostot/Ubuntu.woff">
+<img src="Deck%20Title_tiedostot/Ubuntu-Bold.woff">
+<img src="Deck%20Title_tiedostot/PressStart2P-Regular.woff">
+<img src="Deck%20Title_tiedostot/Lato-BoldItalic.woff">
+<img src="Deck%20Title_tiedostot/AbrilFatface-Regular.woff">
+<img src="Deck%20Title_tiedostot/Lato-Regular.woff">
+</div>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/Markoham">Markoham</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+<div class="bg bg-custom-fac930 strut-surface">
+<div class="bg innerBg strut-slide-0 bg-custom-fac930">
+<div style="position: absolute; transform-origin: left top 0px; transition: all 0ms ease-in-out 0ms; transform-style: preserve-3d; top: 50%; left: 50%; transform: perspective(3958.76px) scale(0.252604);" id="impress"><div style="position: absolute; transform-origin: left top 0px; transition: all 0ms ease-in-out 0ms; transform-style: preserve-3d; transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg) translate3d(-2457.6px, -2764.8px, 0px);">
+	
+		
+			<div style="position: absolute; transform: translate(-50%, -50%) translate3d(2457.6px, 2764.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;" id="step-1" class="step active present" data-state="strut-slide-0 bg-custom-fac930 " data-x="2457.6" data-y="2764.8" data-scale="3">
+			<div class=" slideContainer strut-slide-0" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 8px; left: 16px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 596px; height: 523.83px;">
+<div class="transformContainer" style="-webkit-transform: scale(0.58, 0.58);
+-moz-transform: scale(0.58, 0.58);
+transform: scale(0.58, 0.58)">
+<img src="Deck%20Title_tiedostot/bower-logo.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 492px; left: 326px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 144px;" class="antialias">
+<font color="#ff0000">Bower</font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 679px; left: 328px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+<font>A package manager for the web</font>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div style="position: absolute; transform: translate(-50%, -50%) translate3d(6280.53px, 2764.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;" id="step-2" class="step future" data-state="strut-slide-1 bg-custom-fac930 " data-x="6280.533333333334" data-y="2764.8" data-scale="3">
+			<div class=" slideContainer strut-slide-1" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 30px; left: 110px; -webkit-transform:  skewX(0.05rad) ; -moz-transform:  skewX(0.05rad) ; transform:  skewX(0.05rad) ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 72px;" class="antialias">
+Frontend paketinhallinta
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 228px; left: 132px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 48px;" class="antialias">
+Etsii, lataa, lisää ja pitää huolen<br>riippuvuuksista käyttäjän puolesta.<br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div style="position: absolute; transform: translate(-50%, -50%) translate3d(10048.9px, 2703.36px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;" id="step-3" class="step future" data-state="strut-slide-2 bg-custom-fac930 " data-x="10048.853333333333" data-y="2703.36" data-scale="3">
+			<div class=" slideContainer strut-slide-2" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 30px; left: 280px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 72px;" class="antialias">
+Käyttöönotto
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer command" style="top: 270px; left: 150px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+<font>$ bower install &lt;package&gt;</font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer command" style="top: 380px; left: 150px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+<font color="#878787"># registered package</font><br>$ bower install jquery<br><font color="#878787"># GitHub shorthand</font><br>$ bower install desandro/masonry<br><font color="#878787"># Git endpoint</font><br>$ bower install git://github.com/user/package.git<br><font color="#878787"># URL</font><br>$ bower install http://example.com/script.js
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer command" style="top: 142px; left: 150px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+<font>$ npm install -g bower</font>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div style="position: absolute; transform: translate(-50%, -50%) translate3d(10035.2px, 5729.28px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;" id="step-4" class="step future" data-state="strut-slide-3 bg-custom-fac930 " data-x="10035.2" data-y="5729.28" data-scale="3">
+			<div class=" slideContainer strut-slide-3" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 30px; left: 320px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 72px;" class="antialias">
+bower.json
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer command" style="top: 202px; left: 100px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 36px;" class="antialias">
+$ bower init
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer code" style="top: 194px; left: 526px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 24px;" class="antialias">
+{<br>&nbsp; "name": "my-project",<br>&nbsp; "version": "1.0.0",<br>&nbsp; "main": "path/to/main.css",<br>&nbsp; "ignore": [<br>&nbsp;&nbsp;&nbsp; ".jshintrc",<br>&nbsp;&nbsp;&nbsp; "**/*.txt"<br>&nbsp; ],<br>&nbsp; "dependencies": {<br>&nbsp;&nbsp;&nbsp; "&lt;name&gt;": "&lt;version&gt;",<br>&nbsp;&nbsp;&nbsp; "&lt;name&gt;": "&lt;folder&gt;",<br>&nbsp;&nbsp;&nbsp; "&lt;name&gt;": "&lt;package&gt;"<br>&nbsp; },<br>&nbsp; "devDependencies": {<br>&nbsp;&nbsp;&nbsp; "&lt;test-framework-name&gt;": "&lt;version&gt;"<br>&nbsp; }<br>}
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div style="position: absolute; transform: translate(-50%, -50%) translate3d(6171.31px, 5898.24px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;" id="step-5" class="step future" data-state="strut-slide-4 bg-custom-fac930 " data-x="6171.306666666666" data-y="5898.24" data-scale="3">
+			<div class=" slideContainer strut-slide-4" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 30px; left: 100px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 72px;" class="antialias">
+Maintaining dependencies
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer command" style="top: 226px; left: 102px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 24px;" class="antialias">
+<font><font color="#878787"># install package and add it to bower.json dependencies</font><br>$ bower install &lt;package&gt; --save</font>
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer command" style="top: 393px; left: 99px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 24px;" class="antialias">
+<font color="#878787"># install package and add it to bower.json devDependencies</font><br>$ bower install &lt;package&gt; --save-dev
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div style="position: absolute; transform: translate(-50%, -50%) translate3d(2416.64px, 5959.68px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;" id="step-6" class="step future" data-state="strut-slide-5 bg-custom-fac930 " data-x="2416.64" data-y="5959.68" data-scale="3">
+			<div class=" slideContainer strut-slide-5" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			
+			</div>
+			
+			<div class="componentContainer " style="top: 30px; left: 100px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 72px;" class="antialias">
+Paketit kaikkien saataville
+</div>
+</div>
+</div>
+			
+			<div class="componentContainer command" style="top: 225px; left: 19px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<div style="font-size: 24px;" class="antialias">
+$ bower register &lt;my-package-name&gt; &lt;git-endpoint&gt;<br><font color="#878787"># for example<br></font>$ bower register example git://github.com/user/example.git<br><br>$ bower install &lt;my-package-name&gt;<br><br>$ curl -X DELETE "https://bower.herokuapp.com/packages/&lt;package&gt;?access_token=&lt;token&gt;"<br>
+</div>
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+	<div style="position: absolute; transform: translate(-50%, -50%) translate3d(6232.75px, 4331.52px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(9); transform-style: preserve-3d;" id="overview" class="step future" data-state="strut-slide-overview" data-x="6232.746666666667" data-y="4331.52" data-scale="9"></div>
+	
+</div></div>
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+</div>
+</div></body></html>
